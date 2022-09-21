@@ -1,0 +1,9 @@
+a=int(input())
+unit= input("(L)bs or (K)g")
+
+if unit.upper()==L:
+    a=a *0.45
+    print(a ,"Kg")
+else:
+    a=a/0.45
+    print(a, "Lbs")
