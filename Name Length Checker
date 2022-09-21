@@ -1,0 +1,7 @@
+a=input()
+if len(a)<=3:
+    print("its to short")
+elif len(a)>=20:
+    print("its too large")
+else:
+    print("its fine")
